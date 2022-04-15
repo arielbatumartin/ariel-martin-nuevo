@@ -1,5 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 header .img-cabecera {
-  transition: box-shadow 200ms ease-in;
+  
 }
 header .img-cabecera:hover {
   box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
