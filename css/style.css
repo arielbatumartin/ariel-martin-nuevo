@@ -6,6 +6,7 @@
 }
 
 header .img-cabecera {
+  transition: box-shadow 300ms ease-in;
   
 }
 header .img-cabecera:hover {
@@ -16,5 +17,7 @@ header .img-cabecera:hover {
 header .titulo-header {
   color: red;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
