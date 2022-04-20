@@ -8,11 +8,14 @@
 header .img-cabecera {
   transition: box-shadow 300ms ease-in;
   
+  
 }
 header .img-cabecera:hover {
   box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
   -webkit-box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
   -moz-box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
+
+  
 }
 header .titulo-header {
   color: red;
@@ -21,3 +24,27 @@ header .titulo-header {
 
 
 /*# sourceMappingURL=style.css.map */
+
+.galery img{
+  justify-content: center;
+  padding-left: 40px;
+  justify-content: space-evenly;
+  padding-top: 80px;
+
+  margin: auto;
+  width: 500px;
+  height: 400px;
+}
+
+
+
+.contacto {
+ 
+  background-color: rgb(62, 61, 66);
+
+  padding-top: 20px;
+  
+ 
+}
+
+
