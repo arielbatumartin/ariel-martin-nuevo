@@ -1,50 +1,29 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-*{
-  font-family: 'Roboto', sans-serif;
-}
-
 header .img-cabecera {
-  transition: box-shadow 300ms ease-in;
-  
-  
-}
-header .img-cabecera:hover {
-  box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
-  -webkit-box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
-  -moz-box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
+  transition: box-shadow 200ms ease-in; }
+  header .img-cabecera:hover {
+    box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 24px 4px rgba(255, 0, 0, 0.75); }
 
-  
-}
 header .titulo-header {
-  color: red;
-}
+  color: red; }
 
+h1 {
+  background-color: black; }
 
-
-/*# sourceMappingURL=style.css.map */
-
-.galery img{
+.galery img {
   justify-content: center;
-  padding-left: 40px;
+  margin-left: 40px;
+  background-color: black;
   justify-content: space-evenly;
-  padding-top: 80px;
-
-  margin: auto;
   width: 500px;
-  height: 400px;
-}
-
-
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .contacto {
- 
-  background-color: rgb(62, 61, 66);
-
-  padding-top: 20px;
-  
- 
-}
-
-
+  background-color: #070707;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  flex-direction: column; }
