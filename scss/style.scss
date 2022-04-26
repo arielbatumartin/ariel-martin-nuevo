@@ -28,3 +28,27 @@ h1 {
   
      flex-direction:column;
  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ $redes:(
+     whatsapp:green
+);
+
+@each $red,$color in redes {
+    .btn--#{$red} {background-color:$color;}
+    
+}
