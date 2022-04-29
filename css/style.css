@@ -21,17 +21,47 @@ h1 {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+h3 {
+  margin-left: 50px;
+  margin-top: 30px;
+  color: red;
+}
+
+
 .contacto {
-  background-color: #070707;
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  flex-direction: column; }
-
-
-
-
+  margin-left: 750px;
+  margin-top: 50px;
   
+}
+
+
+
+body, nav {
+  background-color:black;
+}
+
+footer {
+  background-color: darkred;
+}
+
+.btn {
+  background-color: red;
+  justify-content: center;
+}
+
+h2{
+  color: red;
+}
+  
+.proyectos{
+  margin-left: 10px;
+
+}
+
+
+
+
+
 .youtube {
   background-color: black;
   padding: 120px;
@@ -40,4 +70,8 @@ h1 {
   
   width: 100;
   height: 100;
+}
+
+.videos {
+  margin-top: 30px;
 }
